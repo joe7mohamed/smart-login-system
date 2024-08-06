@@ -1,8 +1,5 @@
 
 # Smart Login System
-
-![Project Logo](https://via.placeholder.com/150) <!-- Replace with your actual logo or icon -->
-
 ## Overview
 
 **Smart Login System** is a simple and efficient web application designed to demonstrate a secure login mechanism. Built using HTML, CSS (TailwindCSS), and JavaScript, this application showcases a modern design with a responsive interface, enhanced with FontAwesome icons.
@@ -15,9 +12,6 @@
 - 🎨 **Styled with TailwindCSS:** Leverages TailwindCSS for rapid styling.
 - ⭐ **Icons by FontAwesome:** Adds a professional touch with beautiful icons.
 
-## Preview
-
-![App Screenshot](https://via.placeholder.com/800x400) <!-- Replace with an actual screenshot of your app -->
 
 ## Getting Started
 
@@ -79,6 +73,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-- **Author:** Your Name
-- **Email:** your-email@example.com
-- **GitHub:** [your-username](https://github.com/your-username)
+- **Author:** Youssef Mohamed Ibrahim
+- **Email:** youssef.m.ibrahim.zaky@gmail.com
+- **GitHub:** [Joe7Mohamed](https://github.com/Joe7Mohamed)
