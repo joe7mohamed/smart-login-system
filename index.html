@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Login System</title>
+    <!-- Tailwind CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!-- FontAwesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-gray-100 text-009FBD">
+
+    <div class="container mx-auto my-10">
+        <div class="max-w-md mx-auto bg-white p-5 rounded-lg shadow-lg">
+            <h2 class="text-2xl font-bold mb-5 text-center">Register</h2>
+            <form id="registerForm">
+                <div class="mb-4">
+                    <label class="block mb-1" for="name">Name</label>
+                    <input type="text" id="name" class="w-full p-2 border border-gray-300 rounded" required>
+                    <p id="nameError" class="text-red-500 mt-1 hidden"><i class="fas fa-exclamation-circle"></i> Name
+                        must be 4-20 characters long.</p>
+                </div>
+                <div class="mb-4">
+                    <label class="block mb-1" for="email">Email</label>
+                    <input type="email" id="email" class="w-full p-2 border border-gray-300 rounded" required>
+                    <p id="emailError" class="text-red-500 mt-1 hidden"><i class="fas fa-exclamation-circle"></i> Please
+                        enter a valid email address.</p>
+                </div>
+                <div class="mb-6">
+                    <label class="block mb-1" for="password">Password</label>
+                    <input type="password" id="password" class="w-full p-2 border border-gray-300 rounded" required>
+                    <p id="passwordError" class="text-red-500 mt-1 hidden"><i class="fas fa-exclamation-circle"></i>
+                        Password must be at least 8 characters long.</p>
+                </div>
+                <button type="submit"
+                    class="w-full p-2 bg-009FBD text-white rounded hover:bg-blue-700 transition duration-300">
+                    Register
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
